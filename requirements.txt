@@ -1,0 +1,5 @@
+selenium
+chromium-chromedriver
+wget
+img2dataset
+tqdm
