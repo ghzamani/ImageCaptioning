@@ -1,6 +1,7 @@
 # Image-Captioning Dataset
 An image-captioning dataset gathered by crawling https://burst.shopify.com/ and cleaned into several forms. This dataset contains 12602 image with their captions. 
 The code for generating and cleaning the dataset each exist in a python file and a jupiter notebook which can run on [Google Colab](http://colab.research.google.com/).
+Downloading the images in the dataset is done using [the img2dataset package](https://github.com/rom1504/img2dataset).
 
 ### Dataset format and structure
 the raw and processed datasets are each stored in a json file inside their respective folders. These files contain a list of dictionaries. As an example the data with id 1 is stored in a dictionary like this:
