@@ -29,7 +29,14 @@ dataset_path = ".."
 # you can also call download_images() for this purpose.
 image_format = "url"
 ```
-Before running NLPDataCleaning ...
+Before running NLPDataCleaning, you can change default paths in the file and set your desired path. **dataset_path** and **processed_path** are two path parameters you can edit. First one is the path that the original dataset exists in it. **processed_path** will contain preprocessed files of our dataset such as cleaned_dataset.json, sentences.json and words.json. you can see the default values for these parameters:
+```python
+###The path that contains dataset.json file
+dataset_path = "../data/raw"
+### In this path preprocessed dataset files will be saved
+processed_path = "../data/processed"
+```
+
 Then run the scripts without any arguments:
 
     $ python3 src/nlpdatasetgenerator.py
