@@ -146,7 +146,7 @@ def word_cloud(text):
 
 """# Statistics before cleaning"""
 
-file_name = "MAIN_DATASET.json"
+file_name = "dataset.json"
 dataset_before_cleaning = read_dataset(dataset_path, file_name)
 sentences = sent_broken(dataset_before_cleaning)
 words_dataset = word_broken(dataset_before_cleaning)
