@@ -191,6 +191,3 @@ dataset_path = ".."
 # you can also call download_images() for this purpose.
 image_format = "url"
 crawl_with_categories()
-
-download_images()
-
