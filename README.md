@@ -1,6 +1,6 @@
 # Image-Captioning Dataset
 An image-captioning dataset gathered by crawling https://burst.shopify.com/ and cleaned into several forms. This dataset contains 12602 image with their captions. 
-The code for generating and cleaning the dataset each exist in a python file and a jupiter notebook which can run on [Google Colab](http://colab.research.google.com/).
+The code for generating and cleaning the dataset each exist in a python file and a jupyter notebook which can run on [Google Colab](http://colab.research.google.com/).
 Downloading the images in the dataset is done using [the img2dataset package](https://github.com/rom1504/img2dataset).
 
 ### Dataset format and structure
@@ -34,3 +34,6 @@ Then run the scripts without any arguments:
 
     $ python3 src/nlpdatasetgenerator.py
     $ python3 src/nlpdatacleaning.py
+
+**Note that running the python code for generation may encounter connection problems since the burst website is filtered. Please use a VPN before running the python code. 
+Overall running the jupyter notebook will be much faster and is recommended.**
