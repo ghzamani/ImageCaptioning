@@ -3,3 +3,7 @@ chromium-chromedriver
 wget
 img2dataset
 tqdm
+nltk
+seaborn
+pandas
+wordcloud
